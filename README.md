@@ -33,7 +33,7 @@ Let there be a training set of letters "B" and "Z", given in Capture 1. Each obj
 
 <div align="center">
 
-![Capture 1](img.png)
+![Capture 1](resources/trainingSet.png)
 
 </div>
 
