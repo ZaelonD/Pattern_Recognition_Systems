@@ -42,6 +42,8 @@ white image.
 Picture 1. Training set
 </div>
 
+<br>
+
 The features are the average sizes of 2 × 2 image fragments (Picture 2), i.e. the feature vector has the form:
 x = (x₁, x₂, x₃, x₄, x₅, x₆, x₇, x₈, x₉, x₁₀, x₁₁, x₁₂, x₁₃, x₁₄, x₁₅, x₁₆).
 
@@ -49,6 +51,7 @@ x = (x₁, x₂, x₃, x₄, x₅, x₆, x₇, x₈, x₉, x₁₀, x₁₁, x�
 
 ![Formation of signs](resources/formationOfSigns.svg)
 </div>
+
 
 
 
