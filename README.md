@@ -175,4 +175,13 @@ Picture 2.2.4 Table of test patients
 
 <br>
 
+<div align="center">
+
+![Patient prediction by group](resources/lab2/patientPrediction.svg)
+
+Picture 2.2.5 Patient Prediction by Group
+</div>
+
+<br>
+
 ### 2.3. RESULTS
