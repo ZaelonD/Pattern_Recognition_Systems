@@ -29,7 +29,7 @@ Write a program and solve a similar Bayesian classification problem. Assess reco
 Let there be a training set of letters "B" and "Z", given in Capture 1. Each object is represented as an 8×8 black and
 white image.
 
-<div style="text-align: center">
+<div align="center">
 
 ![Capture 1](resources/trainingSet.svg)  
 
@@ -41,7 +41,7 @@ Picture 1. Training set
 The features are the average sizes of 2 × 2 image fragments (Picture 2), i.e. the feature vector has the form:
 x = (x₁, x₂, x₃, x₄, x₅, x₆, x₇, x₈, x₉, x₁₀, x₁₁, x₁₂, x₁₃, x₁₄, x₁₅, x₁₆).
 
-<div style="text-align: center">
+<div align="center">
 
 ![Formation of signs](resources/formationOfSigns.svg)
 
