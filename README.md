@@ -157,9 +157,22 @@ Next, we define a list of dead-end tests (Picture 2.2.3.). To find them, we need
 
 <div align="center">
 
-![Comparison table](resources/lab2/deadEndTests.svg)
+![Dead-end tests](resources/lab2/deadEndTests.svg)
 
 Picture 2.2.3 Dead-end tests
 </div>
+
+<br>
+
+Next, we enter the number of test patients (Picture 2.2.4.), for which the factors will also be randomly determined and, in accordance with the identified dead-end tests, each test patient is assigned to the first or second group (Picture 2.2.5).
+
+<div align="center">
+
+![Test sample](resources/lab2/testSample.svg)
+
+Picture 2.2.4 Table of test patients
+</div>
+
+<br>
 
 ### 2.3. RESULTS
