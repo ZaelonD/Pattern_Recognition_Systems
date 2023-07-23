@@ -82,7 +82,7 @@ static int[] z10 = {1, 2, 2, 2, 0, 0, 2, 1, 0, 1, 2, 1, 1, 2, 2, 2};
 
 ![Test Sample](resources/testSample.svg)
 
-Picture 2. Test sample
+Picture 3. Test sample
 </div>
 
 <br>
