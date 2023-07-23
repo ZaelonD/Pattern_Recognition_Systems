@@ -101,7 +101,7 @@ The program was developed in the Java programming language using the IntelliJ ID
 
 <div align="center">
 
-![Results](resources/results.png)
+![Results](resources/results.svg)
 
 Picture 4. The result of the program after 4 experiments
 </div>
