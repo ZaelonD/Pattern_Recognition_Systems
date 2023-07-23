@@ -179,7 +179,18 @@ Picture 2.2.4 Table of test patients
 
 ![Patient prediction by group](resources/lab2/patientPrediction.svg)
 
-Picture 2.2.5 Patient Prediction by Group
+Picture 2.2.5 Patient Prediction by group
+</div>
+
+<br>
+
+Next, we consider the accuracy of the predictions obtained by the algorithm (Picture 2.2.6.).
+
+<div align="center">
+
+![Prediction Accuracy](resources/lab2/predictionAccuracy.svg)
+
+Picture 2.2.6 Prediction accuracy
 </div>
 
 <br>
