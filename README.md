@@ -52,7 +52,7 @@ x = (x₁, x₂, x₃, x₄, x₅, x₆, x₇, x₈, x₉, x₁₀, x₁₁, x�
 </div>
 
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <style>
     body {
@@ -61,12 +61,14 @@ x = (x₁, x₂, x₃, x₄, x₅, x₆, x₇, x₈, x₉, x₁₀, x₁₁, x�
       align-items: center;
       height: 100vh;
     }
+
     table {
       border-collapse: collapse;
     }
+    
     td {
-      width: 30px;
-      height: 30px;
+      width: 50px;
+      height: 50px;
       border: 1px solid black;
     }
   </style>
