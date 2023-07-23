@@ -6,10 +6,10 @@
    1.1. [INITIAL DATA](#11-initial-data)  
    1.2. [TEST SAMPLE](#12-test-sample)  
    1.3. [RESULTS](#13-results)
-2. [LABORATORY WORK №2](#LW2) \
-   2.1. [INITIAL DATA](#ID)  
-   2.2. [PROGRESS](#PR)  
-   2.3. [RESULTS](#RES)
+2. [LABORATORY WORK №2](#laboratory-work-2) \
+   2.1. [INITIAL DATA](#21-initial-data)  
+   2.2. [PROGRESS](#22-progress)  
+   2.3. [RESULTS](#23-results)
 3. [LABORATORY WORK №3](#LW3) \
    3.1. [INITIAL DATA](#ID)  
    3.2. [OPERATION OF THE ALGORITHM](#OPALG)  
@@ -22,6 +22,7 @@
 ## LABORATORY WORK №1
 
 **"Statistical recognition. Bayesian classification"**  
+
 Write a program and solve a similar Bayesian classification problem. Assess recognition accuracy.
 
 ### 1.1. INITIAL DATA
@@ -31,7 +32,7 @@ white image.
 
 <div align="center">
 
-![Capture 1](resources/trainingSet.svg)  
+![Capture 1](resources/lab1/trainingSet.svg)  
 
 Picture 1. Training set
 </div>
@@ -43,7 +44,7 @@ x = (x₁, x₂, x₃, x₄, x₅, x₆, x₇, x₈, x₉, x₁₀, x₁₁, x�
 
 <div align="center">
 
-![Formation of signs](resources/formationOfSigns.svg)
+![Formation of signs](resources/lab1/formationOfSigns.svg)
 
 Picture 2. Formation of signs
 </div>
@@ -80,7 +81,7 @@ static int[] z10 = {1, 2, 2, 2, 0, 0, 2, 1, 0, 1, 2, 1, 1, 2, 2, 2};
 
 <div align="center">
 
-![Test Sample](resources/testSample.svg)
+![Test Sample](resources/lab1/testSample.svg)
 
 Picture 3. Test sample
 </div>
@@ -101,7 +102,23 @@ The program was developed in the Java programming language using the IntelliJ ID
 
 <div align="center">
 
-![Results](resources/results.svg)
+![Results](resources/lab1/results.svg)
 
 Picture 4. The result of the program after 4 experiments
 </div>
+
+## LABORATORY WORK №2
+
+**"Logical recognition. Dead End Test"**  
+
+The task is to write a program and solve the recognition problem by calculating scores based on dead-end tests. Assess recognition accuracy.
+
+### 2.1. INITIAL DATA
+
+
+
+### 2.2. PROGRESS
+
+
+
+### 2.3. RESULTS
