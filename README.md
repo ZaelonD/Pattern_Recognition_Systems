@@ -5,7 +5,7 @@
 1. [LABORATORY WORK №1](#laboratory-work-1) \
    1.1. [INITIAL DATA](#11-initial-data)  
    1.2. [TEST SAMPLE](#12-test-sample)  
-   1.3. [RESULTS](#RES)
+   1.3. [RESULTS](#13-results)
 2. [LABORATORY WORK №2](#LW2) \
    2.1. [INITIAL DATA](#ID)  
    2.2. [PROGRESS](#PR)  
@@ -94,3 +94,14 @@ Y₂ = (0, 0, 3, 0, 0, 0, 3, 1, 0, 0, 0, 2, 0, 0, 2, 2);
 Y₃ = (1, 2, 0, 0, 2, 2, 0, 0, 2, 3, 0, 0, 0, 0, 0, 0);
 Y₄ = (1, 2, 2, 2, 0, 2, 2, 2, 0, 0, 0, 2, 1, 2, 2, 1).
 ```
+
+### 1.3. RESULTS
+
+The program was developed in the Java programming language using the IntelliJ IDEA development environment. Picture 4 shows the results of the program.
+
+<div align="center">
+
+![Results](resources/results.png)
+
+Picture 4. The result of the program after 4 experiments
+</div>
