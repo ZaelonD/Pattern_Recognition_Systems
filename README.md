@@ -8,8 +8,7 @@
    1.3. [RESULTS](#13-results)
 2. [LABORATORY WORK №2](#laboratory-work-2) \
    2.1. [INITIAL DATA](#21-initial-data)  
-   2.2. [PROGRESS](#22-progress)  
-   2.3. [RESULTS](#23-results)
+   2.2. [PROGRESS](#22-progress)
 3. [LABORATORY WORK №3](#LW3) \
    3.1. [INITIAL DATA](#ID)  
    3.2. [OPERATION OF THE ALGORITHM](#OPALG)  
@@ -195,4 +194,3 @@ Picture 2.2.6 Prediction accuracy
 
 <br>
 
-### 2.3. RESULTS
