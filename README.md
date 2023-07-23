@@ -34,7 +34,7 @@ white image.
 
 ![Capture 1](resources/lab1/trainingSet.svg)  
 
-Picture 1. Training set
+Picture 1.1.1. Training set
 </div>
 
 <br>
@@ -46,7 +46,7 @@ x = (x₁, x₂, x₃, x₄, x₅, x₆, x₇, x₈, x₉, x₁₀, x₁₁, x�
 
 ![Formation of signs](resources/lab1/formationOfSigns.svg)
 
-Picture 2. Formation of signs
+Picture 1.1.2. Formation of signs
 </div>
 
 <br>
@@ -83,7 +83,7 @@ static int[] z10 = {1, 2, 2, 2, 0, 0, 2, 1, 0, 1, 2, 1, 1, 2, 2, 2};
 
 ![Test Sample](resources/lab1/testSample.svg)
 
-Picture 3. Test sample
+Picture 1.2.1 Test sample
 </div>
 
 <br>
@@ -104,7 +104,7 @@ The program was developed in the Java programming language using the IntelliJ ID
 
 ![Results](resources/lab1/results.svg)
 
-Picture 4. The result of the program after 4 experiments
+Picture 1.3.1 The result of the program after 4 experiments
 </div>
 
 ## LABORATORY WORK №2
@@ -128,6 +128,16 @@ private static final String[] OTHER_SENSATIONS = {"Озноб", "Отсутст�
 
 ### 2.2. PROGRESS
 
+Prepare a training sample of at least eight objects divided into two classes. Use as signs: age, gender, stage of the disease, sore spot, temperature, other sensations.  
+To solve this problem, it was decided to write a small program that, for a specified number of patients, will select random feature values. The program code is part of the entire solution.  
 
+The result of the code when the number of patients = 14 (Picture 2.2.1)
+
+<div align="center">
+
+![Results](resources/lab2/trainingSet.svg)
+
+Picture 2.2.1 Training set
+</div>
 
 ### 2.3. RESULTS
