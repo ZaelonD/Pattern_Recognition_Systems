@@ -45,6 +45,13 @@ Picture 1. Training set
 The features are the average sizes of 2 × 2 image fragments (Picture 2), i.e. the feature vector has the form:
 x = (x₁, x₂, x₃, x₄, x₅, x₆, x₇, x₈, x₉, x₁₀, x₁₁, x₁₂, x₁₃, x₁₄, x₁₅, x₁₆).
 
+<div align="center">
+
+![Arrow](resources/arrow.svg)
+
+</div>
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <style>
@@ -60,7 +67,7 @@ x = (x₁, x₂, x₃, x₄, x₅, x₆, x₇, x₈, x₉, x₁₀, x₁₁, x�
     td {
       width: 30px;
       height: 30px;
-      border: 1px solid white;
+      border: 1px solid black;
     }
   </style>
 </head>
@@ -151,11 +158,5 @@ x = (x₁, x₂, x₃, x₄, x₅, x₆, x₇, x₈, x₉, x₁₀, x₁₁, x�
     </tbody>
   </table>
 </body>
-
-<div align="center">
-
-![Arrow](resources/arrow.svg)
-
-</div>
-
+</html>
 
