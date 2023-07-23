@@ -4,7 +4,7 @@
 
 1. [LABORATORY WORK №1](#laboratory-work-1) \
    1.1. [INITIAL DATA](#11-initial-data)  
-   1.2. [TEST SAMPLE](#TS)  
+   1.2. [TEST SAMPLE](#12-test-sample)  
    1.3. [RESULTS](#RES)
 2. [LABORATORY WORK №2](#LW2) \
    2.1. [INITIAL DATA](#ID)  
@@ -74,4 +74,23 @@ static int[] z7 = {1, 2, 2, 1, 0, 1, 2, 1, 0, 1, 2, 1, 1, 2, 2, 1};
 static int[] z8 = {2, 2, 2, 1, 0, 1, 2, 1, 0, 1, 2, 1, 2, 2, 2, 1};
 static int[] z9 = {1, 2, 1, 0, 0, 2, 3, 0, 1, 2, 3, 0, 0, 0, 0, 0};
 static int[] z10 = {1, 2, 2, 2, 0, 0, 2, 1, 0, 1, 2, 1, 1, 2, 2, 2};
+```
+
+### 1.2. TEST SAMPLE
+
+<div align="center">
+
+![Test Sample](resources/testSample.svg)
+
+Picture 2. Test sample
+</div>
+
+<br>
+
+We chose 4 images, based on them, we will check the operation of the program.
+```
+Y₁ = (3, 2, 2, 3, 3, 2, 2, 0, 2, 0, 2, 0, 3, 2, 3, 0);
+Y₂ = (0, 0, 3, 0, 0, 0, 3, 1, 0, 0, 0, 2, 0, 0, 2, 2);
+Y₃ = (1, 2, 0, 0, 2, 2, 0, 0, 2, 3, 0, 0, 0, 0, 0, 0);
+Y₄ = (1, 2, 2, 2, 0, 2, 2, 2, 0, 0, 0, 2, 1, 2, 2, 1).
 ```
