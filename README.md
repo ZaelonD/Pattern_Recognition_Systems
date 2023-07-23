@@ -151,6 +151,15 @@ Below is a comparison table (Picture 2.2.2.). For each patient from the first cl
 Picture 2.2.2 Comparison table
 </div>
 
+<br>
 
+Next, we define a list of dead-end tests (Picture 2.2.3.). To find them, we need to compare the columns of the comparison matrix in pairs. This can be done by generating combinations without repetitions 6 by 2. Then we cycle through each pair, comparing the two columns obtained by substituting both elements of the pair into array indices and see if there are no identical zero rows in both columns, then the indices of these columns are a dead end test.
+
+<div align="center">
+
+![Comparison table](resources/lab2/deadEndTests.svg)
+
+Picture 2.2.3 Dead-end tests
+</div>
 
 ### 2.3. RESULTS
