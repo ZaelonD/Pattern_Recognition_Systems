@@ -19,11 +19,7 @@
    4.2. [PROGRESS](#PR)  
    4.3. [RESULTS](#RES)
 
-<div align="center">
-
 ## LABORATORY WORK №1
-
-</div>
 
 **"Statistical recognition. Bayesian classification"**  
 Write a program and solve a similar Bayesian classification problem. Assess recognition accuracy.
