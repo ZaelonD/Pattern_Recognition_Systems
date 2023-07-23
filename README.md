@@ -22,6 +22,7 @@
 <div align="center">
 
 ## LABORATORY WORK №1
+
 </div>
 
 **"Statistical recognition. Bayesian classification"**  
@@ -29,14 +30,132 @@ Write a program and solve a similar Bayesian classification problem. Assess reco
 
 ### 1.1. INITIAL DATA
 
-Let there be a training set of letters "B" and "Z", given in Capture 1. Each object is represented as an 8×8 black and white image.
+Let there be a training set of letters "B" and "Z", given in Capture 1. Each object is represented as an 8×8 black and
+white image.
 
 <div align="center">
 
 ![Capture 1](resources/trainingSet.svg)
-
 </div>
 
 <div align="center">
 Picture 1. Training set
 </div>
+
+The features are the average sizes of 2 × 2 image fragments (Picture 2), i.e. the feature vector has the form:
+x = (x₁, x₂, x₃, x₄, x₅, x₆, x₇, x₈, x₉, x₁₀, x₁₁, x₁₂, x₁₃, x₁₄, x₁₅, x₁₆).
+
+<html lang="en">
+<head>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    table {
+      border-collapse: collapse;
+    }
+    td {
+      width: 30px;
+      height: 30px;
+      border: 1px solid white;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <tbody>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <!-- Repeat the above row for each row in the table -->
+    </tbody>
+  </table>
+</body>
+
+<div align="center">
+
+![Arrow](resources/arrow.svg)
+
+</div>
+
+
