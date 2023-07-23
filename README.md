@@ -18,3 +18,11 @@
    4.1. [INITIAL DATA](#ID)  
    4.2. [PROGRESS](#PR)  
    4.3. [RESULTS](#RES)
+
+## LABORATORY WORK №1
+
+"Statistical recognition. Bayesian classification"  
+Assignment - Write a program and solve a similar Bayesian classification problem.   
+Assess recognition accuracy.
+
+### INITIAL DATA
