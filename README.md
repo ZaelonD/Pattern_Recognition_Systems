@@ -135,9 +135,22 @@ The result of the code when the number of patients = 14 (Picture 2.2.1)
 
 <div align="center">
 
-![Results](resources/lab2/trainingSet.svg)
+![Training set](resources/lab2/trainingSet.svg)
 
 Picture 2.2.1 Training set
 </div>
+
+<br>
+
+Below is a comparison table (Picture 2.2.2.). For each patient from the first class (y1), a patient from the second class (y2) is matched (paired) and their factors are compared. If the factors match, then the corresponding cell is filled with zero.
+
+<div align="center">
+
+![Comparison table](resources/lab2/comparisonTable.svg)
+
+Picture 2.2.2 Comparison table
+</div>
+
+
 
 ### 2.3. RESULTS
