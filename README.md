@@ -115,7 +115,16 @@ The task is to write a program and solve the recognition problem by calculating 
 
 ### 2.1. INITIAL DATA
 
+A training sample consisting of the following features:
 
+```
+private static final String[] AGE = {"Пожилой", "Средний", "Молодой"};
+private static final String[] SEX = {"Мужской", "Женский"};
+private static final String[] DISEASE_STAGE = {"Поздняя", "Начальная", "Средняя"};
+private static final String[] SORE_SPOT = {"Голова", "Спина", "Живот", "Руки", "Ноги", "Отсутствует"};
+private static final String[] TEMPERATURE = {"Пониженная", "Нормальная", "Незначительно повышенная", "Значительно повышенная"};
+private static final String[] OTHER_SENSATIONS = {"Озноб", "Отсутствие аппетита", "Тошнота", "Отсутствуют"};
+```
 
 ### 2.2. PROGRESS
 
