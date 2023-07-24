@@ -273,3 +273,12 @@ The algorithm for finding the Levenshtein distance was proposed by Robert A. Wag
 <br>
 
 ### 3.3. RESULTS
+
+<div align="center">
+
+![Results](resources/lab3/results.svg)
+
+Picture 3.3.1. The result of the program
+</div>
+
+<br>
