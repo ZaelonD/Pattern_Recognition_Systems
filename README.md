@@ -282,3 +282,19 @@ Picture 3.3.1. The result of the program
 </div>
 
 <br>
+
+## LABORATORY WORK №4
+
+**"Methods of clustering. Graph Clustering"**  
+
+Write a program for clustering objects from a file (800 objects) based on the graph clustering algorithm. Compare the obtained results with the original classification of objects, evaluate the accuracy of clustering.
+
+### 4.1. INITIAL DATA
+
+
+
+### 4.2. PROGRESS
+
+
+
+### 4.3. RESULTS
