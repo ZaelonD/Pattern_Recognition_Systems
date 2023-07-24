@@ -261,6 +261,15 @@ Vertically:
 
 ### 3.2. OPERATION OF THE ALGORITHM
 
+**Wagner-Fischer algorithm**  
 
+The algorithm for finding the Levenshtein distance was proposed by Robert A. Wagner and Michael J. Fischer in 1974. Its essence boils down to constructing an N + 1, M + 1 matrix and filling its elements based on the recursive formula below.
+
+<div align="center">
+
+![Wagner-FischerAlgorithm](resources/lab3/Wagner-FischerAlgorithm.svg)
+</div>
+
+<br>
 
 ### 3.3. RESULTS
