@@ -224,6 +224,41 @@ Picture 3.1.2. Letter to recognize
 
 <br>
 
+Now let's convert the graphical notation of each letter into a numeric form. Use horizontal and vertical letters.
+
+**Standards:**
+
+```
+Horizontally:
+
+x.put(new int[]{2, 0, 7, 1, 1, 7, 1, 1, 7}, 'Ё');
+x.put(new int[]{3, 5, 5, 5, 3, 5, 5, 5, 3}, 'Ж');
+x.put(new int[]{4, 2, 1, 1, 3, 1, 1, 2, 4}, 'З');
+x.put(new int[]{1, 3, 3, 3, 3, 3, 3, 3, 1}, 'И');
+x.put(new int[]{3, 3, 3, 3, 3, 3, 3, 3, 1}, 'Й');
+
+Vertically:
+
+y.put(new int[]{0, 7, 4, 3, 3, 3, 4, 3, 0}, 'Ё');
+y.put(new int[]{4, 4, 4, 3, 9, 3, 4, 4, 4}, 'Ж');
+y.put(new int[]{0, 0, 2, 2, 3, 3, 3, 6, 0}, 'З');
+y.put(new int[]{9, 1, 1, 1, 1, 1, 1, 1, 9}, 'И');
+y.put(new int[]{8, 1, 1, 2, 2, 2, 1, 1, 8}, 'Й');
+```
+
+Now, in numerical form, we represent the record of the letter that you want to recognize:
+
+```
+Horizontally:
+
+{2, 0, 4, 1, 1, 4, 1, 1, 5}
+
+Vertically:
+
+{0, 8, 3, 3, 4, 1, 0, 0, 0}
+
+```
+
 ### 3.2. OPERATION OF THE ALGORITHM
 
 
