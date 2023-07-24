@@ -9,10 +9,10 @@
 2. [LABORATORY WORK №2](#laboratory-work-2) \
    2.1. [INITIAL DATA](#21-initial-data)  
    2.2. [PROGRESS](#22-progress)
-3. [LABORATORY WORK №3](#LW3) \
-   3.1. [INITIAL DATA](#ID)  
-   3.2. [OPERATION OF THE ALGORITHM](#OPALG)  
-   3.3. [RESULTS](#RES)
+3. [LABORATORY WORK №3](#laboratory-work-3) \
+   3.1. [INITIAL DATA](#31-initial-data)  
+   3.2. [OPERATION OF THE ALGORITHM](#32-operation-of-the-algorithm)  
+   3.3. [RESULTS](#33-results)
 4. [LABORATORY WORK №4](#LW4)  
    4.1. [INITIAL DATA](#ID)  
    4.2. [PROGRESS](#PR)  
@@ -26,7 +26,7 @@ Write a program and solve a similar Bayesian classification problem. Assess reco
 
 ### 1.1. INITIAL DATA
 
-Let there be a training set of letters "B" and "Z", given in Capture 1. Each object is represented as an 8×8 black and
+Let there be a training set of letters "Б" and "З", given in Picture 1.1.1. Each object is represented as an 8×8 black and
 white image.
 
 <div align="center">
@@ -38,7 +38,7 @@ Picture 1.1.1. Training set
 
 <br>
 
-The features are the average sizes of 2 × 2 image fragments (Picture 2), i.e. the feature vector has the form:
+The features are the average sizes of 2 × 2 image fragments (Picture 1.1.2), i.e. the feature vector has the form:
 x = (x₁, x₂, x₃, x₄, x₅, x₆, x₇, x₈, x₉, x₁₀, x₁₁, x₁₂, x₁₃, x₁₄, x₁₅, x₁₆).
 
 <div align="center">
@@ -82,7 +82,7 @@ static int[] z10 = {1, 2, 2, 2, 0, 0, 2, 1, 0, 1, 2, 1, 1, 2, 2, 2};
 
 ![Test Sample](resources/lab1/testSample.svg)
 
-Picture 1.2.1 Test sample
+Picture 1.2.1. Test sample
 </div>
 
 <br>
@@ -97,13 +97,13 @@ Y₄ = (1, 2, 2, 2, 0, 2, 2, 2, 0, 0, 0, 2, 1, 2, 2, 1).
 
 ### 1.3. RESULTS
 
-The program was developed in the Java programming language using the IntelliJ IDEA development environment. Picture 4 shows the results of the program.
+The program was developed in the Java programming language using the IntelliJ IDEA development environment. Picture 1.3.1 shows the results of the program.
 
 <div align="center">
 
 ![Results](resources/lab1/results.svg)
 
-Picture 1.3.1 The result of the program after 4 experiments
+Picture 1.3.1. The result of the program after 4 experiments
 </div>
 
 ## LABORATORY WORK №2
@@ -136,18 +136,18 @@ The result of the code when the number of patients = 14 (Picture 2.2.1)
 
 ![Training set](resources/lab2/trainingSet.svg)
 
-Picture 2.2.1 Training set
+Picture 2.2.1. Training set
 </div>
 
 <br>
 
-Below is a comparison table (Picture 2.2.2.). For each patient from the first class (y1), a patient from the second class (y2) is matched (paired) and their factors are compared. If the factors match, then the corresponding cell is filled with zero.
+Below is a comparison table (Picture 2.2.2). For each patient from the first class (y1), a patient from the second class (y2) is matched (paired) and their factors are compared. If the factors match, then the corresponding cell is filled with zero.
 
 <div align="center">
 
 ![Comparison table](resources/lab2/comparisonTable.svg)
 
-Picture 2.2.2 Comparison table
+Picture 2.2.2. Comparison table
 </div>
 
 <br>
@@ -158,18 +158,18 @@ Next, we define a list of dead-end tests (Picture 2.2.3.). To find them, we need
 
 ![Dead-end tests](resources/lab2/deadEndTests.svg)
 
-Picture 2.2.3 Dead-end tests
+Picture 2.2.3. Dead-end tests
 </div>
 
 <br>
 
-Next, we enter the number of test patients (Picture 2.2.4.), for which the factors will also be randomly determined and, in accordance with the identified dead-end tests, each test patient is assigned to the first or second group (Picture 2.2.5).
+Next, we enter the number of test patients (Picture 2.2.4), for which the factors will also be randomly determined and, in accordance with the identified dead-end tests, each test patient is assigned to the first or second group (Picture 2.2.5).
 
 <div align="center">
 
 ![Test sample](resources/lab2/testSample.svg)
 
-Picture 2.2.4 Table of test patients
+Picture 2.2.4. Table of test patients
 </div>
 
 <br>
@@ -178,19 +178,54 @@ Picture 2.2.4 Table of test patients
 
 ![Patient prediction by group](resources/lab2/patientPrediction.svg)
 
-Picture 2.2.5 Patient Prediction by group
+Picture 2.2.5. Patient Prediction by group
 </div>
 
 <br>
 
-Next, we consider the accuracy of the predictions obtained by the algorithm (Picture 2.2.6.).
+Next, we consider the accuracy of the predictions obtained by the algorithm (Picture 2.2.6).
 
 <div align="center">
 
 ![Prediction Accuracy](resources/lab2/predictionAccuracy.svg)
 
-Picture 2.2.6 Prediction accuracy
+Picture 2.2.6. Prediction accuracy
 </div>
 
 <br>
 
+## LABORATORY WORK №3
+
+**Structural recognition. Levenshtein distance»**  
+
+Write a program and solve the problem of character recognition based on the calculation of the minimum distance between them (Levenshtein distance). Assess recognition accuracy.
+
+### 3.1. INITIAL DATA
+
+First of all, it is necessary to determine the reference records of five letters. It was decided to represent each letter in a 9 × 9 pixel form (Picture 3.1.1).
+
+<div align="center">
+
+![Training set](resources/lab3/trainingSet.svg)
+
+Picture 3.1.1. Prediction accuracy
+</div>
+
+<br>
+
+Then we determine the record of the letter that needs to be recognized. According to the variant, this is the letter "Ё" (Picture 3.1.2).
+
+<div align="center">
+
+![Training set](resources/lab3/letterToSave.svg)
+
+Picture 3.1.1. Prediction accuracy
+</div>
+
+<br>
+
+### 3.2. OPERATION OF THE ALGORITHM
+
+
+
+### 3.3. RESULTS
