@@ -13,10 +13,10 @@
    3.1. [INITIAL DATA](#31-initial-data)  
    3.2. [OPERATION OF THE ALGORITHM](#32-operation-of-the-algorithm)  
    3.3. [RESULTS](#33-results)
-4. [LABORATORY WORK №4](#LW4)  
-   4.1. [INITIAL DATA](#ID)  
-   4.2. [PROGRESS](#PR)  
-   4.3. [RESULTS](#RES)
+4. [LABORATORY WORK №4](#laboratory-work-4)  
+   4.1. [INITIAL DATA](#41-initial-data)  
+   4.2. [PROGRESS](#42-progress)  
+   4.3. [RESULTS](#43-results)
 
 ## LABORATORY WORK №1
 
@@ -291,10 +291,70 @@ Write a program for clustering objects from a file (800 objects) based on the gr
 
 ### 4.1. INITIAL DATA
 
+We have 2 files with input data: matrix.txt and means.txt. We will leave the values of the matrix.txt file unchanged throughout the experiment, because this is the original covariance matrix.  
 
+File matrix.txt contents:
+```
+3 3 3 3 3 3 3 3
+1 2 2 2 2 2 2 2
+1 2 3 3 3 3 3 3
+1 2 3 4 4 4 4 4
+1 2 3 4 5 5 5 5
+1 2 3 4 5 6 6 6
+1 2 3 4 5 6 7 7
+1 2 3 4 5 6 7 8
+```
+The values of the initial vector of mathematical expectations (the contents of the mean.txt file) during the experiment will be changed four times before each start of the data generation program. Source vector values:
+
+```
+A. 5 5 5 5 5 5 5 5
+B. 37 37 37 37 37 37 37 37
+C. 89 89 89 89 89 89 89 89
+D. 148 148 148 148 148 148 148 148
+```
 
 ### 4.2. PROGRESS
 
+Generated data.txt file with a set consisting of 800 vectors (4 sets of 200 vectors according to the values of the original vector).  
+The FOREL algorithm was chosen to cluster objects from a file.  
+The FOREL algorithm is a clustering algorithm that stands for "FORmal ELement". It works by iteratively choosing a center point (called a formal element) and grouping together all other points within a given distance threshold from that center point. The center point is then moved to the center of gravity of the group, and the process is repeated with the remaining ungrouped points until all points are assigned to clusters.
 
+**FOREL algorithm steps:**
+
+1. Select a distance threshold R and an initial center point X0 from the set of input data points.
+2. Determine all other points in the data set that are within the distance threshold R from the center point X0.
+3. Calculate the centroid of this group of points and move the center point X0 to this centroid.
+4. Repeat steps 2 and 3 until the position of the center point X0 does not change.
+5. Assign all points of this group to the cluster and remove them from consideration.
+6. Repeat steps 1-5 with the remaining non-grouped points until all points are assigned to clusters.
+
+The choice of the initial center point can affect the outcome of the algorithm, and various methods can be used to select this point, such as choosing a point randomly or using a density-based approach.
 
 ### 4.3. RESULTS
+
+The execution results depend on the R value entered by the user and on the initial values of the vectors. Given the initial data (vectors 5, 40, 89, 148), we can see that the minimum distance between them is 40-5=35. From here, we can conclude that, most likely, using a value close to 35 as the value of the radius R, we can get the ideal clustering result: 4 vectors of 200 elements.
+
+<div align="center">
+
+![The result R=35](resources/lab4/result1.svg)
+
+Picture 4.3.1. The result of the program with R=35
+</div>
+
+<br>
+
+At the same time, if you use a value that is too small, for example, 5 (Picture 4.3.2) or too large, for example, 150 (Picture 4.3.3), the clustering result will be far from the initial set.
+
+<div align="center">
+
+![The result R=5](resources/lab4/result2.svg)
+
+Picture 4.3.2. The result of the program with R=5
+</div>
+
+<div align="center">
+
+![The result R=150](resources/lab4/result3.svg)
+
+Picture 4.3.3. The result of the program with R=150
+</div>
