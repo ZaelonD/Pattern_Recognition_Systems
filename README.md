@@ -208,7 +208,7 @@ First of all, it is necessary to determine the reference records of five letters
 
 ![Training set](resources/lab3/trainingSet.svg)
 
-Picture 3.1.1. Prediction accuracy
+Picture 3.1.1. Training set
 </div>
 
 <br>
@@ -217,9 +217,9 @@ Then we determine the record of the letter that needs to be recognized. Accordin
 
 <div align="center">
 
-![Training set](resources/lab3/letterToSave.svg)
+![Letter to recognize](resources/lab3/letterToRecognize.svg)
 
-Picture 3.1.1. Prediction accuracy
+Picture 3.1.2. Letter to recognize
 </div>
 
 <br>
